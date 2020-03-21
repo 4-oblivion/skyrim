@@ -1,0 +1,205 @@
+ul{
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+header{
+  padding-top: 10px;
+  min-height: 60px;
+  border-bottom: 3px solid lavender;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px;
+}
+li, a {
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  color: lavender;
+}
+header #naziv h1{
+  margin:auto;
+  float: left;
+  color: lavender;
+  font-size: 36px;
+  text-indent: 15px;
+}
+
+header #naziv h1:hover{
+  margin:auto;
+  color: lightgray;
+  border: 1px solid lavender;
+  border-width: medium;
+}
+
+header a:hover{
+  color: lightgray;
+  border: 1px solid lavender;
+  border-width: medium;
+  font-size: 23px;
+}
+
+header a:active {
+  color: black;
+  background-color: lavender;
+  border: 1px solid black;
+  font-size: 23px;
+}
+
+.ist {
+    color: lavender;
+    font-weight: bold;
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
+  }
+ #prvo {
+     font-size: 26px;
+     font-style: italic;
+   }
+#drugo {
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+body {
+  background-image: url("http://071bc3d04e2671665c74-5a267f839fbe60d0845a37698418bb02.r26.cf5.rackcdn.com/wp-content/uploads/2011/07/skyrim-wallpaper-art.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+ .geography{
+   font-family: Verdana;
+   color: lavender;
+   font-weight: bold;
+ }
+  #geographyid {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  #geo {
+    text-align: justify;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+  }
+.faf {
+  color: lavender;
+  font-weight: bold;
+  font-family: Verdana;
+}
+#flora, #fauna {
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  padding: 10px;
+}
+#fif {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 40px;
+}
+#faun, #flor {
+  text-align: justify;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+.div {
+  float: right;
+  width: 50%;
+}
+#horses {
+  width: 45%;
+  float: left;
+  margin-left: 30px;
+  margin-right: auto;
+background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+  input[type=text], input[type=email], input[type=submit] {
+    width: 100%;
+    margin:20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header #naziv,
+  {float: none, width: 100%;}
+ul, header li {float: none;}
+header li a {display: block; float: none; }
+header nav {margin-top: 30px;}
+  #horses { width: 100%; float: none; margin: 15px;}
+  .div {float:none; width:100%;}
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.races {
+  height: 200px;
+  width: 200px;
+}
